@@ -18,7 +18,7 @@ all:
         ansible_python_interpreter: /usr/bin/python3
       hosts:
         master01:
-          ansible_host: your-nodes-address.com
+          ansible_host: localhost
     supernodes:
       vars:
         ansible_user: root
